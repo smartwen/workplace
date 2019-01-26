@@ -1,0 +1,20 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite1">
+<test verbose="2" name="test1">
+<classes>
+<class name="testng.testBaidu"/>
+</classes>
+</test>
+</suite> -->
+
+ <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite1">
+	<parameter name="test1" value="testng	"></parameter>
+<test verbose="2" name="test1">
+<classes>
+<class name="testng.testBaidu2"/>
+</classes>
+</test>
+</suite> 
